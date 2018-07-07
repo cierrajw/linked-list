@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+}
+article{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #607d8b;
+	background-color: #ffffff;
+	content: '';
+	display: table;
+	clear: both;
+	width: 90%;
+}
+.website-title{
+	color: #455a64;
+	margin: 1rem 1rem;
+	border-bottom: 1px solid #cfd8dc;
+}
+.website-url{
+/*	padding: 1em;
+*/	color: #607d8b;
+	border-bottom: 1px solid #cfd8dc;
+	margin: 1rem 1rem;
+/*	margin: 1rem;
+*/}
+button{
+
+}
+button:disabled{
+	background-color: #ffd773;
+	color: white;
+}
+section {
+  padding-top: 30%;
+  grid-template-columns: auto;
+  width: fill;
+}
+.read{
+/*	padding: 1em;
+*/	font-size: xx-small;
+	float: left;
+	margin: 1rem 1rem;
+}
+.delete{
+/*	padding: 1em 1em .5em 1em;
+*/	font-size: xx-small;
+	float: right;
+	margin: 1rem 1rem;
+}
+
+input {
+  display: block;
+  width: 90%;
+  height: 3rem;
+  margin: 2rem auto;
+}
+
+button {
+  display: block;
+  height: 3rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFC107;
+}
+
+.wrapper {
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.input-section {
+  background-color: #455A64;
+  color: #FFFFFF;
+  grid-column: 1;
+}
+
+.bookmark-section {
+  background-color: #CFD8DC;
+  grid-column: 2;
+}
+
+.icon {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 30px;
+
+
+}
